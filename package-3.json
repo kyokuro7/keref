@@ -1,0 +1,18 @@
+{
+  "name": "vps-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot untuk kelola VPS via SSH, dengan fitur Web Terminal (Cloudflare tunnel)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ssh2": "^1.15.0",
+    "telegraf": "^4.16.3",
+    "ws": "^8.18.0"
+  }
+}
